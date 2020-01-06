@@ -1,4 +1,5 @@
 **Introduction**
+
 Due to the manual nature of lab testing, frequently the results from the lab may have errornous inputs depending on the readability of the lab assistant's handwriting.
 
 As such there is a need to check and validate the results from the lab against a database of known barcodes and date of birth in order to ensure that the results are accurate.
