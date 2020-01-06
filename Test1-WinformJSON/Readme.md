@@ -37,7 +37,7 @@ There will be a button at the end of the form called "Complete validation".
 
 ## 1.5 Output files
 
-**All output files must be stored in the same locatin as the path to the input file.**
+**All output files must be stored in the same location as the path to the input file.**
 
 The **main** output file will
 - have the same columns as the input file
