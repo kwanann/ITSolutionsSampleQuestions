@@ -1,34 +1,10 @@
 [
   {
-    "barcode": "5646",
-    "date_of_birth": "1972-03-09T00:00:00"
+    "barcode": "5707",
+    "date_of_birth": "1996-05-16T00:00:00"
   },
   {
-    "barcode": "5664",
-    "date_of_birth": "1994-05-12T00:00:00"
-  },
-  {
-    "barcode": "5668",
-    "date_of_birth": "1981-11-13T00:00:00"
-  },
-  {
-    "barcode": "5675",
-    "date_of_birth": "1966-12-25T00:00:00"
-  },
-  {
-    "barcode": "5680",
-    "date_of_birth": "1966-05-15T00:00:00"
-  },
-  {
-    "barcode": "5689",
-    "date_of_birth": "1993-07-29T00:00:00"
-  },
-  {
-    "barcode": "5697",
-    "date_of_birth": "1963-11-02T00:00:00"
-  },
-  {
-    "barcode": "5698",
-    "date_of_birth": "1998-04-29T00:00:00"
+    "barcode": "5720",
+    "date_of_birth": "1983-06-13T00:00:00"
   }
 ]

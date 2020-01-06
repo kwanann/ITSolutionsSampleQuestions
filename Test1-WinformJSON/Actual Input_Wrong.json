@@ -1,46 +1,26 @@
 [
   {
-    "barcode": "5725",
-    "date_of_birth": "1979-08-23T00:00:00"
+    "barcode": "5730",
+    "date_of_birth": "1997-05-24T00:00:00"
   },
   {
-    "barcode": "5729",
-    "date_of_birth": "1986-07-15T00:00:00"
+    "barcode": "5753",
+    "date_of_birth": "1960-04-05T00:00:00"
   },
   {
-    "barcode": "5750",
-    "date_of_birth": "1982-09-02T00:00:00"
+    "barcode": "5765",
+    "date_of_birth": "1960-09-26T00:00:00"
   },
   {
-    "barcode": "5757",
-    "date_of_birth": "1972-03-08T00:00:00"
+    "barcode": "5768",
+    "date_of_birth": "1975-04-21T00:00:00"
   },
   {
-    "barcode": "5766",
-    "date_of_birth": "1962-06-30T00:00:00"
+    "barcode": "5787",
+    "date_of_birth": "1999-10-20T00:00:00"
   },
   {
-    "barcode": "5780",
-    "date_of_birth": "1976-07-20T00:00:00"
-  },
-  {
-    "barcode": "5782",
-    "date_of_birth": "1998-11-15T00:00:00"
-  },
-  {
-    "barcode": "5807",
-    "date_of_birth": "2008-07-04T00:00:00"
-  },
-  {
-    "barcode": "5810",
-    "date_of_birth": "1979-12-15T00:00:00"
-  },
-  {
-    "barcode": "5813",
-    "date_of_birth": "1955-05-19T00:00:00"
-  },
-  {
-    "barcode": "5817",
-    "date_of_birth": "2007-01-24T00:00:00"
+    "barcode": "5816",
+    "date_of_birth": "1977-11-28T00:00:00"
   }
 ]
