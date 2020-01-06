@@ -4,8 +4,8 @@ Due to the manual nature of lab testing, frequently the results from the lab may
 
 As such there is a need to check and validate the results from the lab against a database of known barcodes and date of birth in order to ensure that the results are accurate.
 
-Samples of lab results: [here](Sample Input.csv)
-Sample database input: [here](Sample Input.json)
+Samples of lab results: [Sample Input.csv]
+Sample database input: [Sample Input.json]
 
 
 **Description of project and tasks**
