@@ -1,0 +1,46 @@
+[
+  {
+    "barcode": "5725",
+    "date_of_birth": "1979-08-23T00:00:00"
+  },
+  {
+    "barcode": "5729",
+    "date_of_birth": "1986-07-15T00:00:00"
+  },
+  {
+    "barcode": "5750",
+    "date_of_birth": "1982-09-02T00:00:00"
+  },
+  {
+    "barcode": "5757",
+    "date_of_birth": "1972-03-08T00:00:00"
+  },
+  {
+    "barcode": "5766",
+    "date_of_birth": "1962-06-30T00:00:00"
+  },
+  {
+    "barcode": "5780",
+    "date_of_birth": "1976-07-20T00:00:00"
+  },
+  {
+    "barcode": "5782",
+    "date_of_birth": "1998-11-15T00:00:00"
+  },
+  {
+    "barcode": "5807",
+    "date_of_birth": "2008-07-04T00:00:00"
+  },
+  {
+    "barcode": "5810",
+    "date_of_birth": "1979-12-15T00:00:00"
+  },
+  {
+    "barcode": "5813",
+    "date_of_birth": "1955-05-19T00:00:00"
+  },
+  {
+    "barcode": "5817",
+    "date_of_birth": "2007-01-24T00:00:00"
+  }
+]
