@@ -32,15 +32,24 @@ The second grid will have the same columns as the lab results, but listing only 
 
 ## 1.4 Action button
 
-There will be a button at the end of the form called "Complete validation". When the end user clicks this button, it will generate a combined output with the following filename format: \[input file name\]\_\[V(Current datetime in yyyyMMdd-HHmmss)] e.g if the input file is labresults.csv, the output filename will be labresults_v20200106-083722.csv
+There will be a button at the end of the form called "Complete validation". 
+- When the end user clicks this button, it will generate a combined output
+- the outpue file should have the following filename format: \[input file name\]\_\[V(Current datetime in yyyyMMdd-HHmmss)] e.g if the input file is labresults.csv, the output filename will be labresults_v20200106-083722.csv
 
 ## 1.5 Output files
 
-The output file will
+**All output files must be stored in the same locatin as the path to the input file.**
+
+The **main** output file will
 - have the same columns as the input file
 - matched dob records are copied wholesale
-- different dob records are copied wholesale with the exception that the dob value is from the inputs inside the first grid
+- different dob records are copied wholesale with the exception that the dob value is from the dob input inside the *first grid*
 
-A secondary output file will be generated in json format listing the records that are originally wrong. The filename format should be \[input file name\]\_Wrong(Current datetime in yyMMdd-HHmmss)
+A **secondary** output file will be generated in json format
+- listing the records that are *originally wrong*
+- the filename format should be \[input file name\]\_Wrong(Current datetime in yyMMdd-HHmmss)
 
-A third output file may be generated IF there are still differences in dob after user has clicked on "Complete validation". This output file will have the same colums as the original input file, but with an additional db_dob column inserted after the dob column. 
+A **third** output file *may* be generated
+- IF there are still differences in dob after user has clicked on "Complete validation"
+- This output file will have the same colums as the original input file, but with an additional db_dob column inserted after the dob column. 
+- the filename format should be \[input file name\]\_ValidatedWrong(Current datetime in yyMMdd-HHmmss)
