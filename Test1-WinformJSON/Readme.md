@@ -59,8 +59,9 @@ A **third** output file *may* be generated
 ## 2.1 Additional enhancements
 
 1. The end users realized that the patient_name column is also messed up. Sometimes there are additional unwanted characters in the column.
-  1 During the reading of data, remove all non-numeric characters and ensure that the patient_name is a numeric value
-  2 Enable  application wide properties called patient_name_prefix and patient_name_suffix which will be combined together with patient_name during the "Complete Validation" phase. For example with property patient_name_prefix = 'LAB - ' and patient_name_suffix = '-', a patient_name value of 'EDIT -! 3233' will be output as 'LAB - 3233-'
+  - During the reading of data, remove all non-numeric characters and ensure that the patient_name is a numeric value
+  - Enable  application wide properties called patient_name_prefix and patient_name_suffix which will be combined together with patient_name during the "Complete Validation" phase. For example with property patient_name_prefix = 'LAB - ' and patient_name_suffix = '-', a patient_name value of 'EDIT -! 3233' will be output as 'LAB - 3233-'
+  
 2. The end users realized that sometimes the lab results provide userids that do not exist, modify the first grid to enable modification of patient_name column and dob. When "Complete Validation" is pressed, the updated patient_name is written to the output files
 3. There is a need to enable the selection of multiple files. These files will then be read together and the dataset combined into a single dataset for output. Modify the code to handle this use case
 4. Due to variances in date format, end users are requesting to be able to specify the date encoding format. This can be stored in an application wide default or user specific setting. Once applied, all dates will be formatted based on the specified date format
