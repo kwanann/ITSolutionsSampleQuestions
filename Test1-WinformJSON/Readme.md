@@ -4,8 +4,9 @@ Due to the manual nature of lab testing, frequently the results from the lab may
 
 As such there is a need to check and validate the results from the lab against a database of known barcodes and date of birth in order to ensure that the results are accurate.
 
-Samples of lab results: [Sample Input.csv]
-Sample database input: [Sample Input.json]
+Samples of lab results: Sample Input.csv
+
+Sample database input: Sample Input.json
 
 
 **Description of project and tasks**
@@ -18,15 +19,23 @@ There after, it should cross reference the file directly with the database input
 
 Once the comparison is performed between the csv file and database server, the system should provide 2 grids. 
 
+**1.2 First Grid**
+
 The first grid should have the following columns first (barcode, DOB in lab result, DOB in database) followed by the rest of the columns in the lab result.
 For the  "DOB in lab result" column
 - it has to be editable
 - colored red if different from "DOB in database"
 - colored green if same as "DOB in database"
 
+**1.3 Second Grid**
+
 The second grid will have the same columns as the lab results, but listing only those for which the DOB in lab result and DOB in database matches exactly.
 
+**1.4 Action button**
+
 There will be a button at the end of the form called "Complete validation". When the end user clicks this button, it will generate a combined output with the following filename format: \[input file name\]\_\[V(Current datetime in yyyyMMdd-HHmmss)] e.g if the input file is labresults.csv, the output filename will be labresults_v20200106-083722.csv
+
+**1.5 Output files**
 
 The output file will
 - have the same columns as the input file
