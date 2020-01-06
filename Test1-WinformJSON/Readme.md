@@ -34,7 +34,7 @@ The second grid will have the same columns as the lab results, but listing only 
 ## 1.4 Action button
 
 There will be a button at the end of the form called "Complete validation". 
-- When the end user clicks this button, it will generate a combined output
+- When the end user clicks this button, it will generate a combined output (ref 1.5)
 
 ## 1.5 Output files
 
