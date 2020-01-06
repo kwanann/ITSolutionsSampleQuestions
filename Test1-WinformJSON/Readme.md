@@ -21,10 +21,11 @@ Once the comparison is performed between the csv file and database server, the s
 ## 1.2 First Grid
 
 The first grid should have the following columns first (barcode, DOB in lab result, DOB in database) followed by the rest of the columns in the lab result.
-For the  "DOB in lab result" column
-- it has to be editable
-- colored red if different from "DOB in database"
-- colored green if same as "DOB in database"
+- List only records where the "DOB in lab result" and "DOB in database" are not the same
+- For the  "DOB in lab result" column
+-- it has to be editable
+-- colored red if different from "DOB in database"
+-- colored green if same as "DOB in database"
 
 ## 1.3 Second Grid
 
