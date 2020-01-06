@@ -34,7 +34,6 @@ The second grid will have the same columns as the lab results, but listing only 
 
 There will be a button at the end of the form called "Complete validation". 
 - When the end user clicks this button, it will generate a combined output
-- the outpue file should have the following filename format: \[input file name\]\_\[V(Current datetime in yyyyMMdd-HHmmss)] e.g if the input file is labresults.csv, the output filename will be labresults_v20200106-083722.csv
 
 ## 1.5 Output files
 
@@ -43,6 +42,7 @@ There will be a button at the end of the form called "Complete validation".
 The **main** output file will
 - have the same columns as the input file
 - matched dob records are copied wholesale
+- the output file should have the following filename format: \[input file name\]\_\[V(Current datetime in yyyyMMdd-HHmmss)] e.g if the input file is labresults.csv, the output filename will be labresults_v20200106-083722.csv
 - different dob records are copied wholesale with the exception that the dob value is from the dob input inside the *first grid*
 
 A **secondary** output file will be generated in json format
