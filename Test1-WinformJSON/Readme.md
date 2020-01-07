@@ -65,4 +65,5 @@ A **third** output file *may* be generated
 2. The end users realized that sometimes the lab results provide userids that do not exist, modify the first grid to enable modification of patient_name column and dob. When "Complete Validation" is pressed, the updated patient_name is written to the output files
 3. There is a need to enable the selection of multiple files. These files will then be read together and the dataset combined into a single dataset for output. Modify the code to handle this use case
 4. Due to variances in date format, end users are requesting to be able to specify the date encoding format. This can be stored in an application wide default or user specific setting. Once applied, all dates will be formatted based on the specified date format
+5. The datetime provided in JSON is based on GMT, there is a need to use localtime() in .net to convert the timing to local time for comparison. This is especially important as the DOB field may not reflect correctly if comparing between GMT and local time
 5. It seems that the age column is calculated wrongly as well. Generate the Age column based on the difference in years
